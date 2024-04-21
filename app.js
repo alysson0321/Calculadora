@@ -91,12 +91,17 @@ function subtracao(){
     b=0
 }
 function divi(){
+    if(a!==0 && b!==0){
     a = Number(a);
     b = Number(b);
     let divi = Number(a/b);
     alert('A divisão dos números é: '+divi+'.');
     a=0
     b=0
+    }
+    else{
+        alert('não se faz divisão por zero 👍')
+    }
 }
 function mult(){
     a = Number(a);
