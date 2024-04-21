@@ -1,0 +1,42 @@
+@font-face {
+    font-family:'gunplay' ;
+    src: url(gunplay\ rg.otf);
+}
+body{
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+}
+h1{
+    text-align: center;
+    font-family: 'gunplay';
+    background-color: white;
+    color: black;
+    display: inline-block;
+    border-radius: 8px;
+    padding: 8px;
+}
+.titulo{
+    text-align: center;
+}
+#bot{
+    font-size: 25px;
+}
+.botoes{
+    font-size: 40px;
+    justify-content: space-around;
+}
+.botcima, .botmeio, .botbaixo{
+    justify-items: center;
+    text-align: center;
+}
+
+.botopera{
+    margin-top: 15px;
+    text-align: center;
+
+}
+.botoesop{
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
