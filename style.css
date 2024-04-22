@@ -16,6 +16,12 @@ h1{
     border-radius: 8px;
     padding: 8px;
 }
+#res{
+    text-align: center;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 25pt;
+}
 h1:hover{
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
@@ -30,6 +36,7 @@ h1:hover{
     font-size: 40px;
     justify-content: space-around;
     text-align: center;
+    width: 50px;
 }
 .botoes:hover{
     background-color: rgb(99, 99, 99);
@@ -46,7 +53,7 @@ h1:hover{
 }
 .botoesop{
     font-size: 30px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .botoesop:hover{
     background-color: rgb(99, 99, 99);

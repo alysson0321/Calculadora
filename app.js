@@ -77,16 +77,15 @@ function n9(){
 function soma(){
     a = Number(a);
     b = Number(b);
-    let soma = Number(a+b);
-    alert('A soma dos números é: '+soma+'.');
+    res.innerHTML = ('A soma dos números é: '+(a+b))
     a=0
     b=0
+    
 }
 function subtracao(){
     a = Number(a);
     b = Number(b);
-    let sub = Number(a-b);
-    alert('A subtração dos números é: '+sub+'.');
+    res.innerHTML = ('A subtração dos números é: '+(a-b))
     a=0
     b=0
 }
@@ -94,20 +93,18 @@ function divi(){
     if(a!==0 && b!==0){
     a = Number(a);
     b = Number(b);
-    let divi = Number(a/b);
-    alert('A divisão dos números é: '+divi+'.');
+    res.innerHTML = ('A divisão dos números é: '+(a/b));
     a=0
     b=0
     }
     else{
-        alert('não se faz divisão por zero 👍')
+        res.innerHTML = ('não se faz divisão por zero 👍')
     }
 }
 function mult(){
     a = Number(a);
     b = Number(b);
-    let mult = Number(a*b);
-    alert('A multiplicação dos números é: '+mult+'.');
+    res.innerHTML = ('A multiplicação dos números é: '+(a*b));
     a=0
     b=0
 }
